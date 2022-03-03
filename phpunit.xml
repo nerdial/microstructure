@@ -19,11 +19,6 @@
     </coverage>
     <php>
         <env name="APP_ENV" value="testing"/>
-        <env name="ROOT_DIRECTORY" value="/home/vahid/Desktop/project/vahidm"/>
-        <env name="DB_HOST" value="db"/>
-        <env name="DB_ROOT_PASSWORD" value="hOWswSdsEooYEZ8b"/>
-        <env name="DB_DATABASE" value="tradebyte"/>
-        <env name="DB_USER" value="tradebyte_user"/>
-        <env name="DB_PASSWORD" value="cdqNDPFkEZquVPjk"/>
+        <env name="ROOT_DIRECTORY" value="/app"/>
     </php>
 </phpunit>

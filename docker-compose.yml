@@ -13,8 +13,8 @@ services:
       MIGRATION_DIRECTORY: /app/src/Migration
       DB_HOST: db
       DB_ROOT_PASSWORD: hOWswSdsEooYEZ8b
-      DB_DATABASE: tradebyte
-      DB_USER: tradebyte_user
+      DB_DATABASE: application
+      DB_USER: application_user
       DB_PASSWORD: cdqNDPFkEZquVPjk
 
     volumes:
@@ -26,8 +26,8 @@ services:
       - '3306:3306'
     environment:
       MYSQL_ROOT_PASSWORD: hOWswSdsEooYEZ8b
-      MYSQL_DATABASE: tradebyte
-      MYSQL_USER: tradebyte_user
+      MYSQL_DATABASE: application
+      MYSQL_USER: application_user
       MYSQL_PASSWORD: cdqNDPFkEZquVPjk
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
