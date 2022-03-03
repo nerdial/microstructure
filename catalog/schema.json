@@ -1,0 +1,220 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "Product_ID": {
+      "type": "string"
+    },
+    "NR": {
+      "type": "string"
+    },
+    "Name": {
+      "type": "string"
+    },
+    "Product_URL": {
+      "type": "string"
+    },
+    "Search_Keywords": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "Category": {
+      "type": "string"
+    },
+    "Category_ID": {
+      "type": "string"
+    },
+    "SubCategory": {
+      "type": "string"
+    },
+    "SubCategory_ID": {
+      "type": "string"
+    },
+    "Brand": {
+      "type": "string"
+    },
+    "Items": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "SKU": {
+              "type": "string"
+            },
+            "Price": {
+              "type": "string"
+            },
+            "Retail_Price": {
+              "type": "string"
+            },
+            "Thumbnail_URL": {
+              "type": "string"
+            },
+            "Color": {
+              "type": "string"
+            },
+            "Color_Family": {
+              "type": "string"
+            },
+            "Size": {
+              "type": "string"
+            },
+            "Size_Family": {
+              "type": "string"
+            },
+            "Occassion": {
+              "type": "array",
+              "items": {}
+            },
+            "Season": {
+              "type": "array",
+              "items": {}
+            },
+            "Rating_Avg": {
+              "type": "string"
+            },
+            "Rating_Count": {
+              "type": "string"
+            },
+            "Warehouse": {
+              "type": "object",
+              "properties": {
+                "W1": {
+                  "type": "object",
+                  "properties": {
+                    "Inventory_Count": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "Inventory_Count"
+                  ]
+                }
+              },
+              "required": [
+                "W1"
+              ]
+            },
+            "Active": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "SKU",
+            "Price",
+            "Retail_Price",
+            "Thumbnail_URL",
+            "Color",
+            "Color_Family",
+            "Size",
+            "Size_Family",
+            "Occassion",
+            "Season",
+            "Rating_Avg",
+            "Rating_Count",
+            "Warehouse",
+            "Active"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "SKU": {
+              "type": "string"
+            },
+            "Price": {
+              "type": "string"
+            },
+            "Retail_Price": {
+              "type": "string"
+            },
+            "Thumbnail_URL": {
+              "type": "string"
+            },
+            "Color": {
+              "type": "string"
+            },
+            "Color_Family": {
+              "type": "string"
+            },
+            "Size": {
+              "type": "string"
+            },
+            "Size_Family": {
+              "type": "string"
+            },
+            "Occassion": {
+              "type": "array",
+              "items": {}
+            },
+            "Season": {
+              "type": "array",
+              "items": {}
+            },
+            "Rating_Avg": {
+              "type": "string"
+            },
+            "Rating_Count": {
+              "type": "string"
+            },
+            "Warehouse": {
+              "type": "object",
+              "properties": {
+                "W1": {
+                  "type": "object",
+                  "properties": {
+                    "Inventory_Count": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "Inventory_Count"
+                  ]
+                }
+              },
+              "required": [
+                "W1"
+              ]
+            },
+            "Active": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "SKU",
+            "Price",
+            "Retail_Price",
+            "Thumbnail_URL",
+            "Color",
+            "Color_Family",
+            "Size",
+            "Size_Family",
+            "Occassion",
+            "Season",
+            "Rating_Avg",
+            "Rating_Count",
+            "Warehouse",
+            "Active"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "Product_ID",
+    "NR",
+    "Name",
+    "Product_URL",
+    "Search_Keywords",
+    "Description",
+    "Category",
+    "Category_ID",
+    "SubCategory",
+    "SubCategory_ID",
+    "Brand",
+    "Items"
+  ]
+}

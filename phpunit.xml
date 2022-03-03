@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="./vendor/phpunit/phpunit/phpunit.xsd"
+         bootstrap="vendor/autoload.php"
+         colors="true"
+>
+    <testsuites>
+        <testsuite name="Unit">
+            <directory suffix="Test.php">./tests/Unit</directory>
+        </testsuite>
+        <testsuite name="Feature">
+            <directory suffix="Test.php">./tests/Feature</directory>
+        </testsuite>
+    </testsuites>
+    <coverage processUncoveredFiles="true">
+        <include>
+            <directory suffix=".php">./app</directory>
+        </include>
+    </coverage>
+    <php>
+        <env name="APP_ENV" value="testing"/>
+        <env name="ROOT_DIRECTORY" value="/home/vahid/Desktop/project/vahidm"/>
+        <env name="DB_HOST" value="db"/>
+        <env name="DB_ROOT_PASSWORD" value="hOWswSdsEooYEZ8b"/>
+        <env name="DB_DATABASE" value="tradebyte"/>
+        <env name="DB_USER" value="tradebyte_user"/>
+        <env name="DB_PASSWORD" value="cdqNDPFkEZquVPjk"/>
+    </php>
+</phpunit>
